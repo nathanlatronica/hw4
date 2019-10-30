@@ -1,0 +1,23 @@
+<% include partials/headers.ejs %>
+
+    <main>
+    
+        <figure>
+            <img src="img/code2.jpg" alt="C++ Logo">
+        </figure>
+        
+        <div id="UnMapText">
+        <p>Unordered Maps are a data container that hold both a key value and a mapped value. They can be of any type and don't have to match.</p>
+        <p>They are very useful because searching, inserting, and deleting are 0(1) or constant time.</p>
+        <p>An example of when you could use an ordered map could be, if you are trying to count how many times any amount of words is said.</p>
+        <p>You would make an unordered map with a string key and int mapped value</p>
+        <p>unordered_map< string, int > umap; </p>
+        <p>So if they said "the" 5 times, "hey" 2 times, "fun" 1 time, and "bye" 7 times, and you put into the map it would look like,</p>
+        <p>"the": 5, "fun": 1, "bye": 7, "hey":2</p>
+        <p>Notice that the order is not preserved.</p>
+        
+        </div>
+    </main>
+
+<% include partials/footers.ejs %>
+</html>

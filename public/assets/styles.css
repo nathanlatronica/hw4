@@ -1,5 +1,75 @@
-body {
-    background-image: linear-gradient(-90deg, pink, white);
-    text-align: center
+header, nav, footer, main {
+    text-align:center;
 
 }
+
+main {
+    display:flex;
+    justify-content:center;
+
+}
+
+body {
+    background-image: linear-gradient(-90deg, pink, yellow);
+
+}
+
+footer {
+    font-size: 11px;
+    color: black;
+}
+
+
+nav a {
+    padding: 15px;
+    padding-bottom: 4px;
+    font-size: 1.8em;
+    text-decoration: none;
+    color: Black;
+}
+
+nav a:hover {
+    border-bottom:2px black solid;
+    font-size: 2em;
+    transition: .9s;
+}
+
+img:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+body {
+    background-color: black;
+    color:black;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 4em;
+    margin-bottom: 0px;
+}
+
+marquee {
+    color: black;
+    font-size: 15px;
+}
+
+#HomeText {
+    font-size: 19px;
+}
+
+#VectorText {
+    font-size: 17px;
+    
+}
+
+#QueText {
+    font-size: 20px;
+    
+}
+
+#UnMapText {
+    font-size: 18px;
+}
+
